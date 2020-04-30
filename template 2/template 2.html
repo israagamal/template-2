@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>template 2</title>
+    <style>
+        *{
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+        body{
+                background: #000000 url(images/bg1.jpg)
+        }
+        .container{
+            width:82%;
+            margin: auto;
+            margin-top: 35px;
+            background: white;
+            padding: 6px;
+        }
+        header{
+            background:url("images/topbg.gif");
+            border:1px solid black;
+            color:#ffffff;
+            height: 120px;
+            padding-left: 20px;
+            background-size: contain;
+            
+        }
+        header sup{
+            color: #868686;
+        }
+        header p{   
+            color: #868686;
+        }
+        header .head{
+            float: left;
+            padding-top: 40px;
+        }
+        .form1{
+            /*position: static;*/
+            /*float: right;*/
+            /*padding-top: 70px;*/
+            /*padding-right:30px;*/
+            position: absolute;
+            top: 100px;
+            right: 150px;
+            padding-right: 0.0em
+        }
+        .tex{
+            margin-right: 3px;
+            width: 130px;
+        }
+        
+        .submit{
+            background: url("images/menubg.gif");
+            background-size: cover;
+            border: solid 1px #48652e;
+            color: white;
+            
+        }
+        .image{
+            background: url("images/hdrpic.jpg");
+            height: 110px;
+            margin-top: 2px;
+        }
+        .nav .unav{
+            margin-top: 3px;
+            list-style: none;
+            border: 1px hidden red;
+            padding: 10px;
+            background: url("images/menubg.gif");
+        }
+        .nav .unav li{
+            display: inline;
+            
+            padding-left: 10px;
+            
+        }
+        .nav .unav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+        .nav .unav a:hover{
+            text-decoration: underline;
+            background: url("images/menuactive.gif");
+        }
+        .div1{
+            /*margin-top: 10px;*/
+            padding-left: 20px;
+        }
+        .div1 .p1{
+        font-size: 25px;
+        display: inline;
+        }
+        .div1 .image1 {
+            position: absolute;
+            margin: 10px;
+            float: right;
+        }
+        .div1 span{
+            font-weight: bold;
+        }
+        .div1 .image2 {
+            border: 1px solid black;
+            margin: 20px 20px 20px 0px;
+            float: left;
+        }
+        .div1 .p2 {
+            padding: 20px;
+            padding-bottom: 0;
+    font-size: medium;
+        }
+        
+         a{
+            color: #ad7725;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+        
+        .left{
+            margin-left: 20px;
+            float: left;
+            width: 70%;
+        }
+        .left .image1 , .right .image1{
+            width: 15px;
+            margin-left: 15px;
+        }
+        .left .image2 , .right .image2{
+            position: relative;
+    border: 1px solid black;
+    margin: 0px 20px 20px 0px;
+    float: left;
+        }
+        .left .p3 , .right .p3{
+            display: inline;
+            font-weight:bold;
+            font-size: larger;
+        }
+        .left .p4{
+            font-size: small;
+            color: gray;
+            padding-bottom: 20px;
+        }
+        .links{
+            
+            padding: 15px;
+        }
+        .left .links a{
+            font-size: small;
+            margin-left: 15px;
+            
+        }
+        article{
+            padding-top: 20px;
+        border-bottom: solid 1px rgb(214, 206, 206);
+        }
+        article:last-child{
+            border: none;
+        }
+        .right{
+            float: right;
+            width: 25%;
+        }
+        .right #dd{
+            padding: 20px;
+            /*position: relative;*/
+            background: #FDFCF6 url(images/boxbg.gif) repeat-x;
+            /*left: -1.5em;*/*/
+            /*top: -1.5em;*/
+            padding: 1.5em;
+            border-bottom: solid 1px #E1D2BD;
+            margin-bottom: 1.0em;
+        }
+        .right #list li:first-child{
+            padding-top: 20px;
+        }
+        .right #list li{
+            display: block;
+            line-height: 25px;
+    font-weight: 300;
+        }
+        footer{
+           
+            padding: 20px 20px 0px 20px;
+            font-size: smaller;
+        }
+        footer .last{
+            display: inline;
+        }
+        footer .r {
+            float: right;}
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <header>
+        <div class="head">
+        <h1>Zenlike<sup>1.0</sup></h1>
+        <p>A free design by NodeThirtyThree</p>
+        </div>
+        <form>
+            <div class="form1">
+            <input type="text" class="tex">
+            <input type="submit" class="submit" value="Search">
+            </div>
+        </form>
+    </header>
+    <div style="clear: both"></div>
+    <div class="image"></div>
+    <div class="nav">
+        <ul class="unav">
+            <li><a href="###">Home</a></li>
+            <li><a href="###">News</a></li>
+            <li><a href="###">Blog</a></li>                <li><a href="###">Gallary</a></li>
+            <li><a href="###">About</a></li>
+            <li><a href="###">Contact</a></li>
+        </ul>
+    </div>
+    <div style="height: 20px;background: url('images/border1.gif') repeat-x;"></div>
+    <section>    
+        <div class="div1">
+            <p class="p1"><span>Zenlike<sup>1.0</sup></span> by NodeThirtyThree</p>
+            <img  class="image1" src="images/db1.gif" alt="photo" />
+            <div style="clear: both"></div>
+            <img class="image2" src="images/pic1.jpg" alt="photo"/>
+            <p class="p2">Zenlike<sup>1.0</sup> is a free, lightweight,
+            tableless, fluid W3C-compliant website
+            design by <a href="###">NodeThirtyThree Design</a>. All
+            photos came from <a href="###">PDPhoto</a> and the background
+            texture is from <a href="###">Mayang's texture site</a>. You're free to dissect,
+            manipulate and use it to your heart's content. We only ask that
+            you link back to <a href="###">our site</a> in some way. If you find
+            this design useful, feel free to let us know :)</p>
+            <p class="p2">You can find more of our free work at this
+            site or <a href="###">our site</a>, orsome of
+            our commercial work on <a href="###">4Templates</a>.com,
+            a commercial website template site.
+            </p>
+        </div>
+        <div style="clear: both"></div>
+        <div style="height: 20px;background: url('images/border1.gif') repeat-x;"></div>
+    </section>
+
+    <div class="left">
+        <article>
+            <p class="p3">Lorem Ipsum Veroeros</p>
+            <img src="images/db1.gif" class="image1">
+            <p class="p4">Posted by <a href="###">Jane Doe</a> on September 25, 2006</p>
+            <p >Volutpat at varius sed sollicitudin et, arcu. Vivamus viverra. Nullam turpis. Vestibulum sed etiam. Lorem ipsum sit amet dolore. Nulla facilisi. Sed tortor. Aenean felis. Quisque eros. Cras lobortis commodo metus. Vestibulum vel purus. In eget odio in sapien adipiscing blandit. Quisque augue tortor, facilisis sit amet, aliquam, suscipit vitae, cursus sed, arcu lorem ipsum dolor sit amet.</p>
+                <div class="links">
+                    <a href="###">Printer Friendly</a>
+                    <a href="###">Comments(18)</a>
+                    <a href="###">Read More</a>
+                </div>
+        </article>
+        <article>
+            <p class="p3">Consequat Odio Vestibulum</p>
+            <img src="images/db1.gif" class="image1">
+            <p class="p4">Posted by <a href="###">Jane Doe</a> on September 25, 2006</p>
+            <img src="images/pic3.jpg" class="image2">
+            <p class="p2">Aenean felis quisque eros. Cras lobortis commodo lorem ipsum dolor. Vestibulum vel purus. In eget odio in sapien adipiscing blandit. Lorem ipsum dolor sit amet consequat etiam sed dolore.</p>
+            <div style="clear: both"></div>
+                <div class="links">
+                    <a href="###">Printer Friendly</a>
+                    <a href="###">Comments(18)</a>
+                    <a href="###">Read More</a>
+                </div>
+        </article>
+        <article>
+            <p class="p3">Adipiscing Nullam</p>
+            <img src="images/db1.gif" class="image1">
+            <p class="p4">Posted by <a href="###">Jane Doe</a> on September 25, 2006</p>
+            <p >Eget odio in sapien adipiscing blandit. Quisque augue tortor, facilisis sit amet, aliquam, suscipit vitae, cursus sed, arcu lorem ipsum dolor sit amet felis quisque eros. Cras lobortis commodo lorem ipsum dolor. Vestibulum vel purus. In eget odio in sapien adipiscing blandit. Quisque augue tortor, facilisis sit amet, aliquam, suscipit lorem ipsum dolor.</p>
+                <div class="links">
+                    <a href="###">Printer Friendly</a>
+                    <a href="###">Comments(18)</a>
+                    <a href="###">Read More</a>
+                </div>
+        </article>
+    </div>
+    <div class="right">
+        <div id="dd">
+            <p class="p3">Blandit Veroeros</p>
+            <img src="images/db1.gif" class="image1">
+            <br>
+                <br>
+            <img src="images/pic2.jpg" class="image2">
+            <p class="p2">Sed etiam et lorem ipsum nulla vero et lobortis felis sed etiam. Lorem ipsum sit amet dolore. Nulla facilisi. Sed tortor. Aenean felis. Quisque eros etiam <a href="###">sed commodo</a>.</p>
+        </div>
+        <div>
+            <p class="p3">Blandit Veroeros</p>
+            <img src="images/db1.gif" class="image1">
+            <ul id="list">
+                <li><a href="###">Volutpat at varius sed</a></li>
+                <li><a href="###">Sollicitudin et arcu</a></li>
+                <li><a href="###">Vivamus viverra nullam</a></li>
+                <li><a href="###">Turpis vestibulum</a></li>
+                <li><a href="###">Sed etiam lorem ipsum</a></li>
+                <li><a href="###">Sit amet dolore nulla</a></li>
+                <li><a href="###">Facilisi sed tortor</a></li>
+                <li><a href="###">Aenean felis quisque</a></li>
+                <li><a href="###">Eros cras lobortis vel</a></li>
+                <li><a href="###">Purus in eget odio sapien</a></li>
+                <li><a href="###">Adipiscing blandit</a></li>
+                
+                
+            </ul>
+        </div>
+                
+        
+        
+        
+        
+        
+        
+    </div>
+    <div style="clear: both"></div>
+    <footer>
+        <div style="height: 20px;background: url('images/border1.gif') repeat-x;"></div>
+        <p class="last"><i>&copy</i> 2006 Your Website Name. All rights reserved.</p>
+        <p class="last r">Design by <a href="###">NodeThirtyThree Design</a></p>
+    </footer>
+    
+
+
+
+
+</body>
+</html>
